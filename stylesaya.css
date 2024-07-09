@@ -1,0 +1,169 @@
+#divPalingLuar {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f0f8ff; /* AliceBlue */
+  border: 2px solid #4682b4; /* SteelBlue */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#menu_horisontal {
+  max-width: 1000px;
+  height: 40px;
+  border: 1px solid #4682b4; /* SteelBlue */
+  background-color: #4682b4; /* SteelBlue */
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 10px 10px 0 0;
+}
+
+#header {
+  position: relative;
+  top: 5px;
+  max-width: 1000px;
+  height: 190px;
+  background-color: #f0f8ff; /* AliceBlue */
+  display: block;
+  border: 1px solid #4682b4; /* SteelBlue */
+}
+
+#slogan {
+  position: absolute;
+  width: 600px;
+  height: 170px;
+  top: 10px;
+  left: 10px;
+}
+
+#slogan h1 {
+  font-family: 'Vivaldi', cursive;
+  font-size: 70px;
+  text-align: left;
+  font-weight: bold;
+  color: #4682b4; /* SteelBlue */
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 0;
+  text-shadow: 3px 2px 1px black;
+}
+
+#slogan2 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+
+#slogan2 h2 {
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  color: #b22222; /* FireBrick */
+  margin: 0;
+  padding: 0;
+  text-shadow: 3px 2px 1px black;
+}
+
+#gambar {
+  position: absolute;
+  width: 370px;  /* Sesuaikan dengan ukuran gambar asli */
+  height: 170px; /* Sesuaikan dengan ukuran gambar asli */
+  top: 10px;
+  right: 10px;
+  background-color: #f0f8ff; /* AliceBlue */
+  border: 1px solid #4682b4; /* SteelBlue */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Agar gambar menyesuaikan dengan ukuran div */
+}
+
+#kiri {
+  width: 200px;
+  margin-top: 15px;
+  min-height: 510px;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+#menu_vertikal {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  display: block;
+  border: 1px solid #4682b4; /* SteelBlue */
+  background-color: #f0f8ff; /* AliceBlue */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#menu_vertikal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu_vertikal ul li {
+  margin: 10px 0;
+}
+
+#menu_vertikal ul li a {
+  text-decoration: none;
+  color: #4682b4; /* SteelBlue */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#banner {
+  position: absolute;
+  top: 305px;
+  width: 200px;
+  min-height: 200px;
+  background-color: #87cefa; /* LightSkyBlue */
+  display: block;
+  border: 1px solid #4682b4; /* SteelBlue */
+  border-radius: 10px;
+  margin-bottom: 200px;
+  padding: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#content {
+  position: relative;
+  max-width: 782px;
+  height: 505px;
+  margin-top: 15px;
+  left: 215px;
+  background-color: #4682b4; /* SteelBlue */
+  border: 1px solid black;
+  color: white;
+  display: block;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+#footer {
+  clear: both;
+  margin-top: 10px;
+  max-width: 1000px;
+  height: 40px;
+  background-color: #2f4f4f; /* DarkSlateGray */
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 0 0 10px 10px;
+}
